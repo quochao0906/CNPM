@@ -1,0 +1,296 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	margin: 0px;
+	//text-overflow: hidden;
+	
+}
+.content {
+	width: 1060;
+}
+.header ul{
+	list-style: none;
+}
+.header a{
+	color: white;
+	text-decoration: none;
+}
+.header a:hover{
+	background: #ffff;
+	color: red;
+}
+
+
+
+/*header*/
+
+.header{
+	background: black;
+	opacity: 0.8;
+	
+  	width: 100%;
+}
+
+	/*header>top-menu*/
+}
+.top-menu{
+		
+	color: white;
+
+}
+.share li,.info li,.header ul{
+	display: inline-block;
+}
+.info{
+	/*float:right;*/
+	margin-left:900px;
+}
+.share>li{
+	padding-left: 25px;
+	margin: -5px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+}
+/*header>menu*/
+.header .menu {
+    padding-left: 50px;
+}
+/*.header>.menu>ul>li{
+	padding-lef:30;
+}*/
+.menu ul{
+	margin-top: 5px;
+	position: absolute;
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+.menu li{
+	display: inline-block;
+	padding: 20px 20px 30px 20px;
+	margin-left: 0px; 	
+	position: relative;
+}
+.menu img{
+	position: relative;
+	margin-left: 10px
+}
+.menu>ul>li>a{
+	padding-right: 20px
+}
+.menu>ul>li>a:hover {
+	color: red;
+}
+
+
+		/*sub-menu*/
+.sub-menu {
+    display: none;
+    position: absolute;
+    min-width: 16px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 30px;
+}
+.sub-menu a:link{
+	color: black;
+	padding: 12px 30px;
+	display: block;
+
+}
+.sub-menu a:hover{
+	background: #ffff;
+}
+.menu>ul>li> .sub-menu{
+	display: none;
+	background: black;
+	color: white;
+	text-align: center;
+	
+}
+.menu>ul>li:hover .sub-menu{
+	display: block;
+}
+
+
+
+
+/*body*/
+.slider-image>img{
+	width: 100%;
+	height: 100%;
+
+}
+/*css cho phan contact*/
+.main{
+	padding-top: 10px;
+}
+/*dung de chen linh googlemap*/
+iframe
+{
+	border: 0;
+	width: 100%;
+	height: 350px;
+
+}
+/*link gmail*/
+#hyperlink
+{
+	display: block;
+	font-weight: 100;
+	color: blue;
+	padding: 0px;
+}
+span {
+	color: red;
+	font-size: 1.15em;
+	text-transform: uppercase;
+}
+.main>table{
+	width: 100%;
+	table-layout: fixed;
+}
+.main>table>tr>td{
+	padding: 50px;
+	vertical-align: top;
+}
+.main h2{
+	color: red;
+	text-transform: uppercase;
+}
+.main h3{
+	color: red;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/*css cho phan footer*/
+.footer{
+	text-align: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+.footer p {
+	padding-top: 20px;
+}
+/*css cho phan menu-left*/
+.menu-left{
+	float: left;
+	width: 240px;
+	height: 1915px;
+}
+.menu-left h3{
+	float: left;
+	width: 100%;
+	margin: 0px;
+	color: white;
+	text-transform: uppercase;
+	line-height: 41px;
+	text-indent: 50px;	
+	background-color: orange;
+
+}
+.menu-left ul, .menu-left ul li{
+	float: left;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.menu-left ul{
+	background-color: #f6f6f6;
+}
+.menu-left ul li{
+	border-bottom: 1px solid #e0e0e0;
+}
+.menu-left ul li a{
+	color: #737373;
+	text-decoration: none;
+	line-height: 30px;
+	padding-left: 6px;
+	//display: block;
+}
+.menu-left ul li a:hover{
+	font-weight: bold;
+	color: #d3654c;
+	background-color: #eeeeee;
+}
+.menu-left ul li a label{
+	font-style: italic;
+}
+.menu-left ul li a label:hover{
+	font-weight: normal;
+	color: #737373;
+}
+/*-------------- menu-left child ------------*/
+.menu-left ul ul{
+	position: absolute;
+	top: 0px;
+	left: 240px;
+	display: none;
+	border-left: #e0e0e0 1px solid;
+}
+.menu-left ul li{
+	position: relative;
+}
+.menu-left ul li:hover ul{
+	display: block;
+}
+/*icon*/
+.menu-left ul li span{
+	position: absolute;
+	top: 6px;
+	right: 10px;
+}
+/*css cho phan content*/
+
+article {
+	width: 240px;
+	height: 260px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 15px;
+	border: 1px solid gold;
+	overflow: hidden;
+}
+.content img{
+	width: 240px;
+}
+.content p{
+	padding-left: 5px;
+	font-family: tahoma;
+	font-weight: bold;
+}
+.content a{
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	font-family: tahoma;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: red;
+	padding-top: 20px;
+	border-top: 1px solid gray;
+
+}
+.content span{
+	font-style: italic;
+	color: grey;
+	padding-left: 150px;
+}
+.content a:hover{
+	color:#f96262;
+}
+.content i {
+	font-size: 20px;
+	padding-right: 20px;
+	color: black;
+}
