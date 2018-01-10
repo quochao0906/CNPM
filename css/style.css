@@ -316,7 +316,9 @@ article {
 	width: 80px;
 }
 .login input{
-	height: 20px;
+	height: 30px;
+    width: 230px;
+    margin-left: -62px
 }
 .login td{
 	padding:10px;
@@ -343,7 +345,7 @@ article {
 	width: 80px;
 }
 .register input{
-	height: 20px;
+	height: 30px;
 	width: 250px;
 	margin-left: -95px;
 
