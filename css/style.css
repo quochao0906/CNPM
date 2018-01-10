@@ -294,3 +294,57 @@ article {
 	padding-right: 20px;
 	color: black;
 }
+/*login*/
+.login{
+	padding-bottom: 300px;
+}
+.login>table{
+	margin-left: 410px;
+	margin-top: 30px;
+	background: #afafac;
+	border-radius: 10px
+}
+.login tr{
+	height: 30px;
+}
+.login button{
+	margin-left: 90px;
+	height: 30px;
+	width: 80px;
+}
+.login input{
+	height: 20px;
+}
+.login td{
+	padding:10px;
+}
+
+/*register*/
+.register{
+	padding-bottom: 300px;
+}
+.register>table{
+	margin-left: 410px;
+	margin-top: 30px;
+	background: #afafac;
+	padding-right: 10px;
+	border-radius: 10px
+}
+.register tr{
+	height: 30px;
+
+}
+.register button{
+	margin-left: 175px;
+	height: 30px;
+	width: 80px;
+}
+.register input{
+	height: 20px;
+	width: 250px;
+	margin-left: -95px;
+
+}
+.register td{
+	padding:10px;
+}
