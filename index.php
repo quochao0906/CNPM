@@ -1,73 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Công Ty 3H</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">  
-</head>
-<body>
-	<!-- <div class="container"> -->
-	<div class="header">
-		<div class="top-menu">
-			<ul class="share">
-				<li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-			</ul>
-			<ul class="info">
-				<li><input type="text" name="search" placeholder="Tìm Kiếm"></li>
-				<li><a href="login.html">Đăng nhập</a></li>
-				<li><a href="register.html">Đăng kí</a></li>
-			</ul>
-		</div>
-		<div class="menu">
-			<a href="index.html"><img src="img/logo1.png" alt="logo"></a>
-			<ul>
-				<li><a href="index.html">Trang Chủ</a>
-				</li>
-				<li><a href="contact.html">Giới thiệu</a></li>
-				<li><a href="#">Lamborghini</a>
-					<div class="sub-menu">
-							<a href="#">Aventador</a>
-							<a href="#">Huracan</a>
-							<a href="#">Urus</a>										
-					</div>	
-				</li>
-				<li><a href="audi.html">Audi</a>
-					<div class="sub-menu">
-							<a href="#">A3</a>
-							<a href="#">A4</a>
-							<a href="#">A5</a>
-							<a href="#">A6</a>
-							<a href="#">A7</a>
-							<a href="#">A8</a>
-							<a href="#">Q2</a>
-							<a href="#">Q3</a>
-							<a href="#">Q5</a>
-							<a href="#">Q7</a>
-							<a href="#">TT</a>	
-						
-					</div>
-				</li>
-				<li><a href="tintuc.html">Tin Tức</a>
-					<div class="sub-menu">
-							<a href="#">link6</a>
-							<a href="#">link7</a>
-							<a href="#">link8</a>
-							<a href="#">link9</a>
-							<a href="#">link10</a>
-						
-					</div>
-				</li>
-				<li><a href="bonus.html">Khuyến Mãi</a></li>
-				
-			</ul>
-		</div>
-		</div>
-<!-- 		<div class="clearfix"></div>	
- -->	
-	<div class="menu-left">
+<?php
+	include "header.php";
+?>
+<div class="menu-left">
 		<h3>Danh mục</h3>
 		<ul>
 			<li><i class="fa fa-check-square-o"></i><a href="#">Lamborghini<label>(1000)</label></a>
@@ -208,25 +142,13 @@
 			</li>
 			
 		</ul>
-	</div>
-	<div class="content">
+		</div>
+		<div class="content">
 		<section>
 			<article>
 				<a href=""><img src="1.jpg" alt="car"></a>
-				<p>Aventador</p>
-				<span>$456,999</span>
-				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
-			</article>
-			<article>
-				<a href=""><img src="lb1.jpg" alt="car"></a>
-				<p>Gallardo</p>
-				<span>$399,999</span>
-				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
-			</article>
-			<article>
-				<a href=""><img src="lb2.jpg" alt="car"></a>
-				<p>Miura</p>
-				<span>$299,999</span>
+				<p>Avantador</p>
+				<span>$494,195</span>
 				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
 			</article>
 			<article>
@@ -241,51 +163,160 @@
 				<span>$200,000</span>
 				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
 			</article>
-			
+			<article>
+				<a href=""><img src="A3.jpg" alt="car"></a>
+				<p>A3</p>
+				<span>$32,925</span>
+				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
+			</article>
+			<article>
+				<a href=""><img src="A4.jpg" alt="car"></a>
+				<p>A4</p>
+				<span>$36,975</span>
+				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
+			</article>
+			<article>
+				<a href=""><img src="A5.jpg" alt="car"></a>
+				<p>A5</p>
+				<span>$43,775</span>
+				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
+			</article>
+			<article>
+				<a href=""><img src="A6.jpg" alt="car"></a>
+				<p>A6</p>
+				<span>$50,675</span>
+				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
+			</article>
+			<article>
+				<a href=""><img src="A7.jpg" alt="car"></a>
+				<p>A7</p>
+				<span>$70,675</span>
+				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
+			</article>
+			<article>
+				<a href=""><img src="A7.jpg" alt="car"></a>
+				<p>A7</p>
+				<span>$70,675</span>
+				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
+			</article>
+			<article>
+				<a href=""><img src="A7.jpg" alt="car"></a>
+				<p>A7</p>
+				<span>$70,675</span>
+				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
+			</article>
+			<article>
+				<a href=""><img src="A7.jpg" alt="car"></a>
+				<p>A7</p>
+				<span>$70,675</span>
+				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
+			</article>
+			<article>
+				<a href=""><img src="A7.jpg" alt="car"></a>
+				<p>A7</p>
+				<span>$70,675</span>
+				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
+			</article>
+			<article>
+				<a href=""><img src="A7.jpg" alt="car"></a>
+				<p>A7</p>
+				<span>$70,675</span>
+				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
+			</article>
+			<article>
+				<a href=""><img src="A7.jpg" alt="car"></a>
+				<p>A7</p>
+				<span>$70,675</span>
+				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
+			</article>
+			<article>
+				<a href=""><img src="A7.jpg" alt="car"></a>
+				<p>A7</p>
+				<span>$70,675</span>
+				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
+			</article>
+			<article>
+				<a href=""><img src="A7.jpg" alt="car"></a>
+				<p>A7</p>
+				<span>$70,675</span>
+				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
+			</article>
+			<article>
+				<a href=""><img src="A7.jpg" alt="car"></a>
+				<p>A7</p>
+				<span>$70,675</span>
+				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
+			</article>
+			<article>
+				<a href=""><img src="A7.jpg" alt="car"></a>
+				<p>A7</p>
+				<span>$70,675</span>
+				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
+			</article>
+			<article>
+				<a href=""><img src="A7.jpg" alt="car"></a>
+				<p>A7</p>
+				<span>$70,675</span>
+				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
+			</article>
+			<article>
+				<a href=""><img src="A7.jpg" alt="car"></a>
+				<p>A7</p>
+				<span>$70,675</span>
+				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
+			</article>
+			<article>
+				<a href=""><img src="A7.jpg" alt="car"></a>
+				<p>A7</p>
+				<span>$70,675</span>
+				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
+			</article>
+			<article>
+				<a href=""><img src="A7.jpg" alt="car"></a>
+				<p>A7</p>
+				<span>$70,675</span>
+				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
+			</article>
+			<article>
+				<a href=""><img src="A7.jpg" alt="car"></a>
+				<p>A7</p>
+				<span>$70,675</span>
+				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
+			</article>
+			<article>
+				<a href=""><img src="A7.jpg" alt="car"></a>
+				<p>A7</p>
+				<span>$70,675</span>
+				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
+			</article>
+			<article>
+				<a href=""><img src="A7.jpg" alt="car"></a>
+				<p>A7</p>
+				<span>$70,675</span>
+				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
+			</article>
+			<article>
+				<a href=""><img src="A7.jpg" alt="car"></a>
+				<p>A7</p>
+				<span>$70,675</span>
+				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
+			</article>
+			<article>
+				<a href=""><img src="A7.jpg" alt="car"></a>
+				<p>A7</p>
+				<span>$70,675</span>
+				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
+			</article>
+			<article>
+				<a href=""><img src="A7.jpg" alt="car"></a>
+				<p>A7</p>
+				<span>$70,675</span>
+				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
+			</article>
+			<hr>
 
 		</section>
-	</div>
-	<div class="main">
-		
-			<table style="background: #e8e6e1">
-				<tr>
-					<td>
-						<span><strong>Address</strong></span>
-						<br>475A, Điện Biên Phủ, Q.Bình Thạnh
-						<br>Bên cạnh cầu Sài Gòn
-						<p><span><strong>Contact</strong></span>
-						<br><strong>Phone:</strong> (+84) 167 999 5384
-						<br><strong>Fax:</strong> (+84) 167 999 5384
-						<br><strong>Email:</strong><a id="hyperlink" href="mailto">traudat2212@gmail.com</a></p>
-					</td>
-					<td>
-        				<span><strong>Cửa hàng mở cửa:</strong></span>
-        				<br>Mon: 8:00am - 5:30pm
-        				<br>Tue: 8:00am - 5:30pm
-        				<br>Wed: 8:00am - 5:30pm
-        				<br>Thu: 8:00am - 5:30pm
-        				<br>Fri: 8:00am - 5:30pm
-        				<br>Sat: 8:00am - 5:30pm
-        				<br>Sun: Đóng cửa
-
-        			</td>
-        			<td>
-        				<span><strong>Công ty 3H đại diện: </strong></span>
-        				<ul>
-        				    <li>Bán hàng</li>
-        				    <li>Dịch vụ</li>
-        				    <li>Bổ sung</li>
-          				</ul>
-        			</td>
-        			
-				</tr>
-			</table>
-
-			<ul class="footer">
-				<p>Copyright &copy; 2018 Công ty 3H </p>
-			<ul>
-	</div>
-	
-</body>
-
-</html>
+		</div>
+<?php
+	include "footer.php";
+?>
