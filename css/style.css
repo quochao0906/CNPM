@@ -353,3 +353,21 @@ article {
 .register td{
 	padding:10px;
 }
+/*news*/
+.news{
+	margin: 50px;
+
+}
+.left{
+	width: 70%;
+	float: left;
+
+}
+.right{
+	width: 30%;
+	float: right;
+}
+hr{
+	height: 4px;
+	background: blue
+}
