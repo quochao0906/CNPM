@@ -167,6 +167,9 @@ span {
 	text-align: center;
 	text-transform: uppercase;
 }
+.main td{
+	padding-left: 50px
+}
 
 /*css cho phan footer*/
 .footer{
@@ -325,7 +328,7 @@ article {
 }
 .register>table{
 	margin-left: 410px;
-	margin-top: 30px;
+	margin-top: 100px;
 	background: #afafac;
 	padding-right: 10px;
 	border-radius: 10px
