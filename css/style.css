@@ -5,7 +5,7 @@
 body{
 	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
 	margin: 0px;
-	//text-overflow: hidden;
+	text-overflow: hidden;
 	
 }
 .content {
@@ -254,7 +254,7 @@ span {
 }
 /*css cho phan content*/
 
-article {
+.content article {
 	width: 240px;
 	height: 260px;
 	float: left;
@@ -359,15 +359,51 @@ article {
 
 }
 .left{
-	width: 70%;
+	width: 55%;
 	float: left;
+	margin-bottom: 50px;
+
 
 }
 .right{
-	width: 30%;
+	width: 35%;
 	float: right;
+	margin-bottom: 50px;
+
 }
 hr{
-	height: 4px;
-	background: blue
+	height: 1px;
+	background: black
 }
+/*left => congnghe*/
+.technology article.frames1 {
+    float: left;
+    width: 60%;
+}
+.technology .top {
+    float: right;
+    width: 40%;
+    padding-top: 10px
+}
+.technology .cover, .technology .noidung{
+	display: inline-block;
+}
+.technology{
+	border-bottom: 2px solid #e3e3e3
+}
+.car-world{
+	border-top:  2px solid black
+	border-bottom: 2px solid black
+}
+/*right*/
+.order-list .topic{
+	padding-left: 10px;
+
+}
+.topic .cover, .topic .order{
+	display: inline-block;
+}
+.right .order-list{
+	    border: 2px solid #e3e3e3;
+}
+
