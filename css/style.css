@@ -325,6 +325,7 @@ span {
 	padding:10px;
 }
 
+
 /*register*/
 .register{
 	padding-bottom: 300px;
@@ -357,12 +358,14 @@ span {
 /*news*/
 .news{
 	margin: 50px;
+	bac
 
 }
 .left{
 	width: 60%;
 	float: left;
 	margin-bottom: 50px;
+	/*border: 2px solid black;*/
 
 
 }
@@ -379,22 +382,114 @@ hr{
 /*left => congnghe*/
 .technology article.frames1 {
     float: left;
-    width: 60%;
+    width: 50%;
 }
 .technology .top {
     float: right;
-    width: 40%;
-    padding-top: 10px
+    width: 50%;
+    padding-top: 20px
 }
 .technology .cover, .technology .noidung{
 	display: inline-block;
 }
-.technology{
+.technology h2{
 	border-bottom: 2px solid #e3e3e3
 }
-.car-world{
-	border-top:  2px solid black
+.technology {
+	padding-bottom: 20px;
 	border-bottom: 2px solid black
+
+}
+/*left => car-world*/
+.car-world article.frames1 {
+    float: left;
+    width: 50%;
+}
+.car-world .top {
+    float: right;
+    width: 50%;
+    padding-top: 20px
+}
+.car-world .cover, .car-world .noidung{
+	display: inline-block;
+}
+.car-world h2{
+	border-bottom: 2px solid #e3e3e3
+}
+.car-world {
+	padding-bottom: 20px;
+	border-bottom: 2px solid black
+	
+}
+/*left => young-life*/
+.young-life article.frames1 {
+    float: left;
+    width: 50%;
+}
+.young-life .top {
+    float: right;
+    width: 50%;
+    padding-top: 20px
+}
+.young-life .cover, .car-world .noidung{
+	display: inline-block;
+}
+.young-life h2{
+	border-bottom: 2px solid #e3e3e3
+}
+.young-life {
+	padding-bottom: 20px;
+	border-bottom: 2px solid black
+	
+}
+/*left => education*/
+.education article.frames1 {
+    float: left;
+    width: 50%;
+}
+.education .top {
+    float: right;
+    width: 50%;
+    padding-top: 20px
+}
+.education .cover, .education .noidung{
+	display: inline-block;
+}
+.education h2{
+	border-bottom: 2px solid #e3e3e3
+}
+.education {
+	padding-bottom: 20px;
+	border-bottom: 2px solid black
+	
+}
+/*left => sport*/
+.sport article.frames1 {
+    float: left;
+    width: 50%;
+}
+.sport .top {
+    float: right;
+    width: 50%;
+    padding-top: 20px
+}
+.sport .cover, .sport .noidung{
+	display: inline-block;
+}
+.sport h2{
+	border-bottom: 2px solid #e3e3e3
+}
+.sport {
+	padding-bottom: 20px;
+	border-bottom: 2px solid black
+	
+}
+/*clear-fix*/
+.clearfix{
+	content: ".";
+    visibility: hidden;
+    display: block; 
+    clear: both;
 }
 /*right*/
 .order-list .topic{
