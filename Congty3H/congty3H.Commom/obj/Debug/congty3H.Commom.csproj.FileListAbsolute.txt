@@ -1,0 +1,5 @@
+C:\Users\Admin\Desktop\CNPM\Congty3H\congty3H.Commom\bin\Debug\congty3H.Commom.dll
+C:\Users\Admin\Desktop\CNPM\Congty3H\congty3H.Commom\bin\Debug\congty3H.Commom.pdb
+C:\Users\Admin\Desktop\CNPM\Congty3H\congty3H.Commom\obj\Debug\congty3H.Commom.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\CNPM\Congty3H\congty3H.Commom\obj\Debug\congty3H.Commom.dll
+C:\Users\Admin\Desktop\CNPM\Congty3H\congty3H.Commom\obj\Debug\congty3H.Commom.pdb
