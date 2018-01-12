@@ -502,3 +502,19 @@ hr{
 	    border: 2px solid #e3e3e3;
 }
 
+.pagination a {
+    color: black;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
