@@ -19,8 +19,12 @@ body{
 	text-decoration: none;
 }
 .header a:hover{
-	background: #ffff;
+	background-color: #ffff;
 	color: red;
+}
+.active{
+	color: red;
+	background-color: blue;
 }
 
 
@@ -80,7 +84,8 @@ body{
 	margin-left: 10px
 }
 .menu>ul>li>a{
-	padding-right: 20px
+	padding: 24px;
+	padding-bottom: 31px
 }
 .menu>ul>li>a:hover {
 	color: red;
@@ -91,7 +96,7 @@ body{
 .sub-menu {
     display: none;
     position: absolute;
-    min-width: 16px;
+    min-width: 150px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     margin-top: 30px;
@@ -358,10 +363,9 @@ span {
 /*news*/
 .news{
 	margin: 50px;
-	bac
 
 }
-.left{
+.news .left{
 	width: 60%;
 	float: left;
 	margin-bottom: 50px;
@@ -369,16 +373,13 @@ span {
 
 
 }
-.right{
+.news .right{
 	width: 35%;
 	float: right;
 	margin-bottom: 50px;
 
 }
-hr{
-	height: 1px;
-	background: black
-}
+
 /*left => congnghe*/
 .technology article.frames1 {
     float: left;
@@ -503,3 +504,4 @@ hr{
 	    border: 2px solid #e3e3e3;
 }
 
+/* category*/
