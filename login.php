@@ -1,5 +1,5 @@
 <?php
-	$page='login';
+	
 	include "header.php";
 ?>
 <div class="login" >

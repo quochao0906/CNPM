@@ -1,5 +1,5 @@
 <?php
-	session_start();
+	
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,9 +19,9 @@
 				<li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
 			</ul>
 			<ul class="info">
-				<li><input type="text" name="search" placeholder="Tìm Kiếm"></li>
-				<li><a href="login.php" class="<?php if($page=='login'){echo 'active';}?>" style="<?php if(isset($_SESSION['logged'])){echo 'display: none';}?>">Đăng nhập</a></li>
-				<li><a href="register.php" class="<?php if($page=='register'){echo 'active';}?>" style="<?php if(isset($_SESSION['logged'])){echo 'display: none';}?>">Đăng kí</a></li>
+				<li><input type="text" name="search" placeholder="Tìm Kiếm" style="border-radius: 10px"></li>
+				<li><a href="login.php">Đăng nhập</a></li>
+				<li><a href="register.php" >Đăng kí</a></li>
 				
 			</ul>
 		</div>

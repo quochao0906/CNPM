@@ -35,7 +35,7 @@ body{
 
 .header{
 	background: black;
-	/*opacity: 0.8;*/
+	opacity: 0.8;
 	
   	width: 100%;
 }
@@ -54,6 +54,7 @@ body{
 	/*float:right;*/
 	margin-left:900px;
 }
+
 .share>li{
 	padding-left: 25px;
 	margin: -5px;
@@ -507,23 +508,6 @@ span {
 }
 /* css cho lambo*/
 
-.pagination a {
-    color: black;
-    float: left;
-    margin-left: 30px;
-    margin-top: 20px;
-    padding: 8px 16px;
-    text-decoration: none;
-    transition: background-color .3s;
-}
 
-.pagination a.active {
-    background-color: #4CAF50;
-    color: white;
-}
 
-<<<<<<< HEAD
-/* category*/
-=======
-.pagination a:hover:not(.active) {background-color: #ddd;}
->>>>>>> 9094cb11d08e1f5bad303444e9aa4bd71f945019
+
