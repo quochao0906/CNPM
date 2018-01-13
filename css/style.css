@@ -19,7 +19,14 @@ body{
 	text-decoration: none;
 }
 .header a:hover{
+
+	background-color: #ffff;
 	color: red;
+}
+.active{
+
+	color: red;
+	background-color: blue;
 }
 
 
@@ -28,7 +35,7 @@ body{
 
 .header{
 	background: black;
-	/*opacity: 0.8;*/
+	opacity: 0.8;
 	
   	width: 100%;
 }
@@ -47,6 +54,7 @@ body{
 	/*float:right;*/
 	margin-left:900px;
 }
+
 .share>li{
 	padding-left: 25px;
 	margin: -5px;
@@ -79,7 +87,8 @@ body{
 	margin-left: 10px
 }
 .menu>ul>li>a{
-	padding-right: 20px
+	padding: 24px;
+	padding-bottom: 31px
 }
 .menu>ul>li>a:hover {
 	color: red;
@@ -90,7 +99,7 @@ body{
 .sub-menu {
     display: none;
     position: absolute;
-    min-width: 16px;
+    min-width: 150px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     margin-top: 30px;
@@ -357,10 +366,9 @@ span {
 /*news*/
 .news{
 	margin: 50px;
-	bac
 
 }
-.left{
+.news .left{
 	width: 60%;
 	float: left;
 	margin-bottom: 50px;
@@ -368,16 +376,13 @@ span {
 
 
 }
-.right{
+.news .right{
 	width: 35%;
 	float: right;
 	margin-bottom: 50px;
 
 }
-hr{
-	height: 1px;
-	background: black
-}
+
 /*left => congnghe*/
 .technology article.frames1 {
     float: left;
@@ -503,19 +508,10 @@ hr{
 }
 /* css pagnination*/
 
-.pagination a {
-    color: black;
-    float: left;
-    margin-left: 30px;
-    margin-top: 20px;
-    padding: 8px 16px;
-    text-decoration: none;
-    transition: background-color .3s;
-}
 
-.pagination a.active {
-    background-color: #4CAF50;
-    color: white;
-}
 
+<<<<<<< HEAD
 .pagination a:hover:not(.active) {background-color: #ddd;}
+=======
+
+>>>>>>> 5ec1485a742f43e4ff1c5b1a65aef1fceb62079b
