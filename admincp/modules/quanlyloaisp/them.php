@@ -6,7 +6,7 @@
 	</tr>
 	<tr>
 		<td>Tên loại SP</td>
-		<td><input type="text" name="TenLoai"></td>
+		<td><input type="text" name="tenloaisp"></td>
 	</tr>
 	<tr>
 		<td>Thứ tự</td>

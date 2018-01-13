@@ -1,9 +1,16 @@
-<?php
-		$tenmaychu='localhost';
-		$tentaikhoan='root';
-		$pass='';
-		$csdl='cnpm';
-		$conn=mysql_connect($tenmaychu,$tentaikhoan,$pass,$csdl) or die('Khong ket noi duoc');
-		mysql_select_db($csdl,$conn) or die('khong ket noi duoc');
 
-	?>
+<?php
+		$servername = "localhost";
+		$username = "root";
+		$password = "";
+		$dbname = "cnpm";
+		
+		$con = mysqli_connect($servername,$username,$password,$dbname);
+		
+		if(!$con){
+			die('Ket Noi that bai:'.mysqli_connct_error());
+		}else{
+			echo "Ket noi thanh cong";
+			}
+	
+	 ?>
