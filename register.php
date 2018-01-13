@@ -1,4 +1,5 @@
 <?php
+	$page='register';
 	include "header.php";
 ?>
 <div class="register" >

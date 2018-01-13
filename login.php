@@ -1,4 +1,5 @@
 <?php
+	
 	include "header.php";
 ?>
 <div class="login" >
@@ -16,8 +17,8 @@
  					<td><input type="password" name="password" placeholder="Mật Khẩu" ></td>
  				</tr>
  				<tr >
- 					<td><a href="/">Quên mật khẩu?</a></td>
- 					<td><button type="button" >Đăng Nhập </button</td>
+ 					<td><a href="#">Quên mật khẩu?</a></td>
+ 					<td><button type="button" ><a href="index.html" style="text-decoration: none; color: black">Đăng Nhập</a> </button></td>
 				</tr>
 				<tr >
 					<td><a href="register.html">Bạn chưa đăng kí tài khoản?</a></td>

@@ -1,3 +1,6 @@
+<?php
+	
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,9 +19,10 @@
 				<li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
 			</ul>
 			<ul class="info">
-				<li><input type="text" name="search" placeholder="Tìm Kiếm"></li>
-				<li><a href="login.html">Đăng nhập</a></li>
-				<li><a href="register.html">Đăng kí</a></li>
+				<li><input type="text" name="search" placeholder="Tìm Kiếm" style="border-radius: 10px"></li>
+				<li><a href="login.php">Đăng nhập</a></li>
+				<li><a href="register.php" >Đăng kí</a></li>
+				
 			</ul>
 		</div>
 		<div class="menu">
@@ -51,7 +55,7 @@
 					</div>
 				</li>
 				<li><a href="tintuc.html">Tin Tức</a>
-					<div class="sub-menu">
+					<div class="sub-menu" >
 							<a href="#">Công Nghệ</a>
 							<a href="#">Thế Giới Xe</a>
 							<a href="#">Sống Trẻ</a>
