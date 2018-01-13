@@ -19,7 +19,7 @@
 				<li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
 			</ul>
 			<ul class="info">
-				<li><input type="text" name="search" placeholder="Tìm Kiếm" style="border-radius: 10px"></li>
+				<li><input type="text" name="search" placeholder="Tìm Kiếm"></li>
 				<li><a href="login.php">Đăng nhập</a></li>
 				<li><a href="register.php" >Đăng kí</a></li>
 				

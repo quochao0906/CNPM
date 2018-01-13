@@ -301,7 +301,7 @@
 
 		</section>
 		</div>
-			<div class="pagination">	
+			<div class="pagination" style="margin-left: 670px">	
 				<a href="#">&laquo;</a>
   				<a  class="active" href="#">1</a>
   				<a class="#" href="#">2</a>
