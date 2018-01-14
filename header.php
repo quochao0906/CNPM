@@ -1,5 +1,5 @@
 <?php
-	
+	include "connect_database.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
