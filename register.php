@@ -1,9 +1,13 @@
 <?php
 	include "header.php";
 ?>
+
+
 <div class="register" >
 	<form action="" method="post">
- 			<table >
+ 			<table> 
+ 			
+
  				<tr >
  					<th colspan="2">ĐĂNG KÍ TÀI KHOẢN</th>
  				</tr>
@@ -38,11 +42,36 @@
  				</tr>
  				<tr >
  					<!-- <td><a href="index.html"><button type="button" style="margin-left: 90px"> Trở Về</button></a></td> -->
- 					<td><button type="button"  >Đăng Kí </button></td>
+ 					<!-- <td><button type="button"  >Đăng Kí </button></td> -->
+ 					<td style="padding-left: 312px" >
+ 						<input type="submit" name="dangki" value="Đăng Kí" style="width: 70px">
+ 					</td>
 				</tr>
  			</table></form>
  			
- 	</div>
+ 			
+ </div>
+ <?php
+	
+	if(isset($_POST['dangki'])){
+		$fullname = $_POST['fullname'];
+		$adress= $_POST['adress'];
+		$numberphone = $_POST['numberphone'];
+		$Email = $_POST['Email'];
+		$username = $_POST['username'];
+		$password = $_POST['password'];
+		$imported = $_POST['re-password'];
+		$sql = "INSERT INTO taikhoan (TenHienThi,TenTk,MatKhau,PhanQuyen) VALUES($fullname,$username,$password,'')";
+		 mysqli_query($conn,$sql);
+		// if ($run_query) {
+		// 	header('location:index.php');
+
+		// }else{
+		// 	header('location:register.php');
+		// }
+
+	}
+?>
 <?php
 	include "footer.php";
 ?>

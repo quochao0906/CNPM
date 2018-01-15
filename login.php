@@ -21,7 +21,9 @@
  				</tr>
  				<tr >
  					<td><a href="#">Quên mật khẩu?</a></td>
- 					<td><button type="button" ><a href="index.html" style="text-decoration: none;color: black">Đăng Nhập</a> </button></td>
+ 					<td style="padding-left: 162px">
+ 						<input type="submit" name="dangnhap" value="Đăng Nhập" style="width: 80px">
+ 					</td>
 				</tr>
 				<tr >
 					<td><a href="register.html">Bạn chưa đăng kí tài khoản?</a></td>
