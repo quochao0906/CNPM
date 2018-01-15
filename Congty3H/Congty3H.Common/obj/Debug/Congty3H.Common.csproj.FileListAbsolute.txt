@@ -1,5 +1,0 @@
-C:\Users\Admin\Desktop\CNPM\Congty3H\Congty3H.Common\bin\Debug\Congty3H.Common.dll
-C:\Users\Admin\Desktop\CNPM\Congty3H\Congty3H.Common\bin\Debug\Congty3H.Common.pdb
-C:\Users\Admin\Desktop\CNPM\Congty3H\Congty3H.Common\obj\Debug\Congty3H.Common.csprojResolveAssemblyReference.cache
-C:\Users\Admin\Desktop\CNPM\Congty3H\Congty3H.Common\obj\Debug\Congty3H.Common.dll
-C:\Users\Admin\Desktop\CNPM\Congty3H\Congty3H.Common\obj\Debug\Congty3H.Common.pdb
