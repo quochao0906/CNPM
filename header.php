@@ -1,5 +1,6 @@
 <?php
 	include "connect_database.php";
+	session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -20,8 +21,14 @@
 			</ul>
 			<ul class="info">
 				<li><input type="text" name="search" placeholder="Tìm Kiếm"></li>
-				<li><a href="login.php">Đăng nhập</a></li>
-				<li><a href="register.php" >Đăng kí</a></li>
+				<li><a href="login.php" style="<?php if(isset($_SESSION['logged'])){ echo'display: none';}?>">Đăng nhập</a></li>
+				<li><a href="register.php" style="<?php if(isset($_SESSION['logged'])){ echo'display: none';}?>">Đăng kí</a></li>
+				<li><a href="#" style="<?php if(!isset($_SESSION['logged'])){ echo'display: none';}?>">Thành viên</a>
+					<div class="sub-menu">
+							<a href="#">Thông Tin</a>
+							<a href="#">Đăng Xuât</a>
+					</div>	
+				</li>
 				
 			</ul>
 		</div>

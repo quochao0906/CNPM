@@ -1,25 +1,39 @@
 
 <?php
 	include 'header.php';
-	
+
 ?>
 <?php
 	$name= "admin";
 	$pass= "admin";
-	session_start();
-	// $username = $_POST['username'];
-	// $password = $_POST['password'];
-	if (isset($_POST['dangnhap'])) {
-		if ($name == $_POST['username'] && $pass==$_POST['password']) {
-			header("location:admincp/indexadmin.php");
-		}else
-		{
-			echo "Đăng Nhập Thất Bại";
-		}
-	}
-		
-		
 	
+	if (isset($_POST['dangnhap'])) 
+	{
+		$username = $_POST['username'];
+		$password = $_POST['password'];
+		if ($name == $username && $pass == $password)
+		{
+			header("location:admincp/indexadmin.php");
+		}
+		else
+		{ 
+			//if (!$name == $_POST['username'] && !$pass==$_POST['password']) {
+			 $sql = "SELECT TenTk,MatKhau FROM taikhoan WHERE TenTk= '$username' and MatKhau='$password'";
+			 $query =mysqli_query($conn,$sql);
+			 $num_row=mysqli_num_rows($query);
+			 if ($num_row==1) 
+			 {
+			 		$r= mysqli_fetch_assoc($num_row);
+			 		$_SESSION['logged']=$username;
+			 		header('location:index.php');
+			 } 
+			else
+			{
+					echo "đăng nhập thất bại";
+			}
+		}	
+			
+	}
 ?>
 
 <div class="login" >
