@@ -1,7 +1,35 @@
 <?php
 	include "header.php";
 ?>
+<?php
+	
+	if(isset($_POST['dangki']))
+	{
+		$fullname = $_POST['fullname'];
+		$adress= $_POST['adress'];
+		$numberphone = $_POST['numberphone'];
+		$Email = $_POST['Email'];
+		$username = $_POST['username'];
+		$password = $_POST['password'];
+		$imported = $_POST['re-password'];
+		// if ($password!=$imported) {
+		// 	header('location:register.php');
+		// }else{
+		// 	header('location:login.php');
+		// }
 
+		$sql = "INSERT INTO taikhoan(TenHienThi,TenTk,MatKhau,DC,SDT,Email,PhanQuyen) VALUES('$fullname','$username','$password','$adress','$numberphone','$Email','')";
+		// $sql = "INSERT INTO khachhang (TenKH,DCKH,SDT,Email) VALUES($fullname,$adress,$numberphone,$Email)";
+		 mysqli_query($conn,$sql);
+		// if ($run_query) {
+		// 	header('location:index.php');
+
+		// }else{
+		// 	header('location:register.php');
+		// }
+
+	}
+?>
 
 <div class="register" >
 	<form action="" method="post">
@@ -51,27 +79,7 @@
  			
  			
  </div>
- <?php
-	
-	if(isset($_POST['dangki'])){
-		$fullname = $_POST['fullname'];
-		$adress= $_POST['adress'];
-		$numberphone = $_POST['numberphone'];
-		$Email = $_POST['Email'];
-		$username = $_POST['username'];
-		$password = $_POST['password'];
-		$imported = $_POST['re-password'];
-		$sql = "INSERT INTO taikhoan (TenHienThi,TenTk,MatKhau,PhanQuyen) VALUES($fullname,$username,$password,'')";
-		 mysqli_query($conn,$sql);
-		// if ($run_query) {
-		// 	header('location:index.php');
-
-		// }else{
-		// 	header('location:register.php');
-		// }
-
-	}
-?>
+ 
 <?php
 	include "footer.php";
 ?>
