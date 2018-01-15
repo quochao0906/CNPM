@@ -3,6 +3,24 @@
 	include 'header.php';
 	
 ?>
+<?php
+	$name= "admin";
+	$pass= "admin";
+	session_start();
+	// $username = $_POST['username'];
+	// $password = $_POST['password'];
+	if (isset($_POST['dangnhap'])) {
+		if ($name == $_POST['username'] && $pass==$_POST['password']) {
+			header("location:admincp/indexadmin.php");
+		}else
+		{
+			echo "Đăng Nhập Thất Bại";
+		}
+	}
+		
+		
+	
+?>
 
 <div class="login" >
 	<form action="" method="post">
