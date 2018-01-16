@@ -395,7 +395,7 @@ span {
 }
 .technology .top {
     float: right;
-    width: 50%;
+    width: 32%;
     padding-top: 20px
 }
 .technology .cover, .technology .noidung{
@@ -409,6 +409,13 @@ span {
 	border-bottom: 2px solid black
 
 }
+.technology .cover img{
+	width: 500px;
+	height: 300px;
+}
+.technology .top .top1 a{
+	width: 10px;
+}
 /*left => car-world*/
 .car-world article.frames1 {
     float: left;
@@ -416,7 +423,7 @@ span {
 }
 .car-world .top {
     float: right;
-    width: 50%;
+    width: 32%;
     padding-top: 20px
 }
 .car-world .cover, .car-world .noidung{
