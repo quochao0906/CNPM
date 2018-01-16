@@ -36,16 +36,16 @@
 			</ul>
 			<ul class="info">
 				<li><input type="text" name="search" placeholder="Tìm Kiếm"></li>
-				<li><a href="login.html">Đăng nhập</a></li>
-				<li><a href="register.html">Đăng kí</a></li>
+				<li><a href="login.php">Đăng nhập</a></li>
+				<li><a href="register.php">Đăng kí</a></li>
 			</ul>
 		</div>
 		<div class="menu">
 			<a href="index.html"><img src="img/logo1.png" alt="logo"></a>
 			<ul>
-				<li><a href="index.html">Trang Chủ</a>
+				<li><a href="index.php">Trang Chủ</a>
 				</li>
-				<li><a href="contact.html">Giới thiệu</a></li>
+				<li><a href="contact.php">Giới thiệu</a></li>
 				<li><a href="#">Lamborghini</a>
 					<div class="sub-menu">
 							<a href="#">Aventador</a>
@@ -53,7 +53,7 @@
 							<a href="#">Urus</a>										
 					</div>	
 				</li>
-				<li><a href="audi.html">Audi</a>
+				<li><a href="#">Audi</a>
 					<div class="sub-menu">
 							<a href="#">A3</a>
 							<a href="#">A4</a>
@@ -69,7 +69,7 @@
 						
 					</div>
 				</li>
-				<li><a href="tintuc.html">Tin Tức</a>
+				<li><a href="tintuc.php">Tin Tức</a>
 					<div class="sub-menu">
 							<a href="#">link6</a>
 							<a href="#">link7</a>
@@ -79,7 +79,7 @@
 						
 					</div>
 				</li>
-				<li><a href="bonus.html">Khuyến Mãi</a></li>
+				<li><a href="#">Khuyến Mãi</a></li>
 				
 			</ul>
 		</div>

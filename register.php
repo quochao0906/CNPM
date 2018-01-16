@@ -20,13 +20,16 @@
 
 		$sql = "INSERT INTO taikhoan(TenHienThi,TenTk,MatKhau,DC,SDT,Email,PhanQuyen) VALUES('$fullname','$username','$password','$adress','$numberphone','$Email','')";
 		// $sql = "INSERT INTO khachhang (TenKH,DCKH,SDT,Email) VALUES($fullname,$adress,$numberphone,$Email)";
-		 mysqli_query($conn,$sql);
-		// if ($run_query) {
-		// 	header('location:index.php');
+		 $query = mysqli_query($conn,$sql);
+		if ($query) 
+		{
+			header('location:login.php');
 
-		// }else{
-		// 	header('location:register.php');
-		// }
+		}
+		else
+		{
+			header('location:register.php');
+		}
 
 	}
 ?>

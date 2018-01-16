@@ -35,17 +35,17 @@
 		<div class="menu">
 			<img src="img/logo1.png" alt="logo">
 			<ul>
-				<li><a href="index.html">Trang Chủ</a>
+				<li><a href="index.php">Trang Chủ</a>
 				</li>
-				<li><a href="contact.html">Giới thiệu</a></li>
-				<li><a href="lambo.html">Lamborghini</a>
+				<li><a href="contact.php">Giới thiệu</a></li>
+				<li><a href="#">Lamborghini</a>
 					<div class="sub-menu">
 							<a href="#">Aventador</a>
 							<a href="#">Huracan</a>
 							<a href="#">Urus</a>										
 					</div>	
 				</li>
-				<li><a href="audi.html">Audi</a>
+				<li><a href="#">Audi</a>
 					<div class="sub-menu">
 							<a href="#">A3</a>
 							<a href="#">A4</a>
@@ -61,7 +61,7 @@
 						
 					</div>
 				</li>
-				<li><a href="tintuc.html">Tin Tức</a>
+				<li><a href="tintuc.php">Tin Tức</a>
 					<div class="sub-menu" >
 							<a href="#">Công Nghệ</a>
 							<a href="#">Thế Giới Xe</a>
@@ -71,7 +71,7 @@
 						
 					</div>
 				</li>
-				<li><a href="bonus.html">Khuyến Mãi</a></li>
+				<li><a href="#">Khuyến Mãi</a></li>
 				
 			</ul>
 		</div>

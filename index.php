@@ -129,10 +129,10 @@
 		<div class="content">
 		<section>
 			<article>
-				<a href=""><img src="img/1.jpg" alt="car"></a>
+				<a href="category.php"><img src="img/1.jpg" alt="car"></a>
 				<p>Avantador</p>
 				<span>$494,195</span>
-				<a href="#"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
+				<a href="category.php"><i class="fa fa-shopping-cart"></i>Đặt hàng</a>
 			</article>
 			<article>
 				<a href=""><img src="img/2.jpg" alt="car"></a>
