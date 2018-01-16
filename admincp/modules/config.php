@@ -9,8 +9,6 @@
 		
 		if(!$con){
 			die('Ket Noi that bai:'.mysqli_connct_error());
-		}else{
-			echo "Ket noi thanh cong";
-			}
+		}
 	
 	 ?>
