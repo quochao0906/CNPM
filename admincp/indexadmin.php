@@ -21,8 +21,9 @@
         	
 
         	
-        	
         </div>
+        <p><a href="cnpm/index.php">Trở về trang chủ</a></p>
+            
         <script src="js/main.js"></script>
     </body>
 </html>
